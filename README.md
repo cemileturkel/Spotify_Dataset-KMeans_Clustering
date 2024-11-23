@@ -31,11 +31,7 @@ The analysis includes the following steps:
    - Load the dataset using pandas.
    - Select relevant features for clustering.
 
-2. **Elbow Method**:
-   - Determine the optimal number of clusters using the Elbow method.
-   - Plot the Elbow method graph to visualize the Within-Cluster Sum of Squares (WCSS) for different cluster numbers.
-
-3. **KMeans Clustering**:
+2. **KMeans Clustering**:
    - Apply KMeans clustering with the optimal number of clusters.
    - Add the cluster labels to the dataset.
 
